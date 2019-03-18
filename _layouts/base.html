@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131729062-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-131729062-1');
+    </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Iva Beranová Portfolio"/>
+    <meta name="keywords" content="Iva Beranová, portfolio, ilustrace, concept art, animace"/>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Montserrat:400,400i" rel="stylesheet">
+
+    <style>
+        body {
+            padding-top: 4.5rem;
+        }
+
+        .font-montserrat {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .font-amatic {
+            font-family: 'Amatic SC', cursive;
+        }
+
+        header .nav-item {
+            font-size: 3rem;
+            padding-left: 1.2rem;
+            padding-right: 1.2rem;
+        }
+
+        header .navbar {
+            background-color: white;
+        }
+
+        h1.font-amatic {
+            font-size: 4rem;
+        }
+
+        h2.font-amatic {
+            font-size: 3rem;
+        }
+
+        h3.font-amatic {
+            font-size: 2rem;
+        }
+
+        a {
+            color: firebrick;
+        }
+    </style>
+
+    <title>Iva Beranová - Portfolio</title>
+</head>
+<body class="font-montserrat">
+
+<header>
+    <nav class="navbar navbar-expand-md fixed-top navbar-light font-amatic">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
+                aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse justify-content-md-center" id="navbarMain">
+            <ul class="navbar-nav">
+                <li class="nav-item {% if page.url == '/' %}active{% endif %}">
+                    <a class="nav-link" href="index.html">O mně</a>
+                </li>
+                <li class="nav-item {% if page.url == '/illustration.html' %}active{% endif %}">
+                    <a class="nav-link" href="illustration.html">Ilustrace</a>
+                </li>
+                <li class="nav-item {% if page.url == '/conceptart.html' %}active{% endif %}">
+                    <a class="nav-link" href="conceptart.html">Concept art</a>
+                </li>
+                <li class="nav-item {% if page.url == '/animation.html' %}active{% endif %}">
+                    <a class="nav-link" href="animation.html">Animace</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<main role="main" class="container">
+    {{ content }}
+</main>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>
