@@ -1,0 +1,58 @@
+---
+layout: base
+---
+
+<div class="row mb-md-4"></div>
+<div class="row mb-lg-5"></div>
+
+<div class="row justify-content-center">
+
+    <div class="col-md-7">    
+        <p>
+        Ilustrace přebalu a zadní strany pro knihu Mladí rozpačití lidé spisovatele Zaška. Samonáklad
+         <br>Datum vzniku: 2017</br>
+        </p>
+        <p>
+            <em>
+              Illustrations of cover and backsite for a book Mladí rozpačití lidé (Young Embarassed People) from the writer Zašek. Self-publication
+              <br>Creation date: 2017</br>
+            </em>
+        </p>
+     </div>
+</div>
+
+<div class="row mb-md-4"></div>
+<div class="row mb-lg-5"></div>
+
+<div class="row">
+
+    <div class="col-md-12">
+        <img src="res/img/ilustration/kniha01.jpg" class="img-fluid" alt="ukazka"/>
+    </div>  
+   
+</div>
+
+<div class="row mb-md-4"></div>
+<div class="row mb-lg-5"></div>
+
+<div class="row">
+
+    <div class="col-md-6">
+        <img src="res/img/ilustration/prednistrana01.jpg" class="img-fluid" alt="front"/>
+    </div>
+    
+      <div class="col-md-6">
+        <img src="res/img/ilustration/zadnistrana01.jpg" class="img-fluid" alt="back"/>
+    </div>
+   
+</div>
+
+<div class="row mb-md-4"></div>
+<div class="row mb-lg-5"></div>
+
+<div class="text-center font-amatic" style="font-size: 3rem;">
+    <a href="http://ivaberanova.cz/illustration.html" target="_blank">Zpět</a>
+</div>
+
+<div class="row mb-md-4"></div>
+<div class="row mb-lg-5"></div>
