@@ -1,0 +1,26 @@
+---
+layout: base
+bigger-container: true
+---
+
+<div class="row mb-md-4"></div>
+<div class="row mb-lg-5"></div>
+
+<div class="row">
+
+    <div class="col-md-5">
+        <img src="res/img/banner.jpg" class="img-fluid" alt="banner"/>
+    </div>
+
+    <div class="col-md-5">
+        <h2 class="font-amatic" style="font-size: 2.8rem; color: #FF6600;">Iva Beranová</h2>
+
+
+        <p>            
+            Soubor volných grafik natisknutých technikou sítotisku.            
+        </p>
+        <p>   
+            Realizace od roku 2020.
+        </p>
+        
+</div>
